@@ -1,0 +1,33 @@
+@use '../styles' as *;
+@use '../components/mixins' as *;
+
+.services-section {
+
+  .service-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .service {
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px #f1f1f1;
+    transition: .5s;
+
+    h3{
+      font-size: 1.3rem;
+      @include text-gradient;
+    }
+  
+    i {
+      font-size: 70px;
+      color: $primary;
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      box-shadow: 0px 30px 50px 0px #00001d1a;
+      transform: translateY(-5px);
+    }
+  }
+}

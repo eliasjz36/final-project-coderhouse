@@ -1,0 +1,26 @@
+@use '../styles' as *;
+@use '../components/mixins' as *;
+
+
+.footer {
+    @include gradient;
+
+    .footer-link{
+        text-decoration: none;
+        color:#f1f1f1;
+        padding: 10px 0;
+
+        &:hover{
+            cursor: pointer;
+            color: $white;
+            border-bottom: 1px solid $white;
+        }
+    }
+    a.logo{
+
+        &:hover{
+            background-color: $white;
+            color: $primary !important;
+        }
+    }
+}
