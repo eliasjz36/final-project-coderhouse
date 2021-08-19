@@ -2,9 +2,6 @@
 @use '../components/mixins' as *;
 
 .custom-button{
-    @include media-breakpoint-down(sm){
-        display: none;
-    }
     position: relative;
     padding: 0.8375rem 1.25rem 0.8375rem 1.25rem;
     font-weight: 700;

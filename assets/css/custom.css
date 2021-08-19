@@ -11121,11 +11121,6 @@ textarea.form-control-lg {
   background-color: #fff;
   display: block;
 }
-@media (max-width: 575.98px) {
-  .custom-button {
-    display: none;
-  }
-}
 .custom-button:hover {
   background: linear-gradient(90deg, #ff2476 0%, #cb4485 99%);
   color: #fff;
@@ -11230,6 +11225,11 @@ body {
 @media (max-width: 767.98px) {
   .intro-section {
     text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .intro-section img {
+    display: none;
   }
 }
 

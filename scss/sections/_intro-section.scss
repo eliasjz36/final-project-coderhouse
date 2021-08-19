@@ -10,4 +10,10 @@
     @include media-breakpoint-down(md){
         text-align: center;
     }
+
+    img{
+        @include media-breakpoint-down(md){
+            display: none;
+        }
+    }
 }
