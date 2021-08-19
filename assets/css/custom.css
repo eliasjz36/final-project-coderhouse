@@ -11261,7 +11261,7 @@ body {
   transition: 0.5s;
 }
 .services-section .service h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background-image: linear-gradient(to right, #ff2476, #cb4485);
   background-clip: text;
   -webkit-background-clip: text;

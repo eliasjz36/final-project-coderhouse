@@ -38,18 +38,7 @@ body{
     }
 }
 
-// // BORDER RIGHT 
-// .border-right {
-//     border-right: 0;
-
-//     @include media-breakpoint-up(sm) {
-//         border-right: 0.1rem solid $gray-300;
-//         height: 100%;
-//     }
-// }
-
-
 // GRADIENT BG 
-.gradient  {
+.gradient {
     @include gradient;
 }
